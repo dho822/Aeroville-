@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aeroville Higher Secondary School</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #0a7d4f;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    background: #065f3c;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('https://images.unsplash.com/photo-1580582932707-520aed937b7b') no-repeat center center/cover;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about, .academics, .admissions {
+    background: #f4f4f4;
+}
+
+.contact {
+    background: #e8f5e9;
+}
+
+footer {
+    background: #0a7d4f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+button {
+    background: #0a7d4f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #065f3c;
+}
+
+@media(max-width:768px){
+    .hero h1 {
+        font-size: 28px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h2>Aeroville Higher Secondary School</h2>
+    <p>Empowering Young Minds for a Brighter Future</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#academics">Academics</a>
+    <a href="#admissions">Admissions</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero" id="home">
+    <h1>Welcome to Our School</h1>
+</div>
+
+<section class="about" id="about">
+    <h2>About Us</h2>
+    <p>
+        Aeroville Higher Secondary School is committed to providing quality education.
+        We focus on academic excellence, discipline, and character development.
+    </p>
+</section>
+
+<section class="academics" id="academics">
+    <h2>Academics</h2>
+    <p>Classes Offered: Nursery to Class XII</p>
+    <p>Streams Available: Science, Commerce, Arts</p>
+    <p>Well-equipped laboratories and experienced faculty.</p>
+</section>
+
+<section class="admissions" id="admissions">
+    <h2>Admissions</h2>
+    <p>Admissions are open for the academic session.</p>
+    <button>Apply Now</button>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Goalpara, Assam</p>
+    <p>📞 +91 9876543210</p>
+    <p>✉️ info@aeroville.com</p>
+</section>
+
+<footer>
+    <p>© 2026 Aeroville Higher Secondary School | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
